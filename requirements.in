@@ -1,0 +1,88 @@
+# Django
+# ------------------------------------------------------------------------------
+Django
+# The Web framework for perfectionists with deadlines.
+# https://www.djangoproject.com/
+# https://github.com/django/django
+
+django-debug-toolbar
+
+django-environ
+# Django-environ allows you to utilize 12factor inspired environment variables
+#   to configure your Django application.
+# http://django-environ.readthedocs.org
+# https://github.com/joke2k/django-environ
+
+psycopg2-binary
+# PostgreSQL database adapter for the Python programming language
+# http://initd.org/psycopg/
+# https://github.com/psycopg/psycopg2
+
+django_extensions
+# This is a repository for collecting global custom management extensions for the Django Framework.
+# https://django-extensions.readthedocs.io
+# https://github.com/django-extensions/django-extensions
+
+
+# Unit tests and code formatting
+# ------------------------------------------------------------------------------
+pytest
+# The pytest framework makes it easy to write small tests, yet scales to support complex functional testing
+# https://pytest.org
+# https://github.com/pytest-dev/pytest/
+
+pytest-django
+# A Django plugin for pytest.
+# https://pytest-django.readthedocs.io/
+# https://github.com/pytest-dev/pytest-django
+
+pytest-cov
+# Coverage plugin for pytest.
+# https://pypi.org/project/pytest-cov/
+# https://github.com/pytest-dev/pytest-cov
+
+pytest-sugar
+# a plugin for py.test that changes the default look and feel of py.test
+#   (e.g. progressbar, show tests that fail instantly)
+# http://pivotfinland.com/pytest-sugar
+# https://github.com/Frozenball/pytest-sugar
+
+pytest-isort
+# py.test plugin to check import ordering using isort
+# https://github.com/moccu/pytest-isort
+
+pytest-flake8
+# pytest plugin to run flake8
+# https://github.com/tholo/pytest-flake8
+
+flake8
+# flake8 is a python tool that glues together pep8, pyflakes, mccabe, and
+#   third-party plugins to check the style and quality of some python code.
+# http://flake.pycqa.org/en/latest/
+# https://github.com/PyCQA/flake8
+
+mypy
+# Optional static typing for Python 2 and 3 (PEP 484)
+# http://www.mypy-lang.org/
+# https://github.com/python/mypy
+
+isort
+# isort your python imports for you so you don’t have to.
+# https://github.com/timothycrosley/isort
+
+djangorestframework-stubs
+# PEP-484 stubs for django-rest-framework
+# https://github.com/mkurnikov/djangorestframework-stubs
+
+black
+# The uncompromising Python code formatter
+# https://black.readthedocs.io/en/stable/
+# https://github.com/ambv/black
+
+
+# Other
+# ------------------------------------------------------------------------------
+
+elasticsearch
+
+pandas
