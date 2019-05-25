@@ -18,16 +18,11 @@ from django.urls import include, path
 from django.conf.urls.static import static
 from holistic import settings
 
-urlpatterns = [
-    path("", include("main.urls", namespace="main")),
-    path('admin/', admin.site.urls)
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns = [path('', include("main.urls", namespace="main")), path('admin/', admin.site.urls)] + static(
+    settings.STATIC_URL, document_root=settings.STATIC_ROOT
+)
 
 if settings.DEBUG:
     import debug_toolbar
 
-    urlpatterns = [
-        path('__debug__/', include(debug_toolbar.urls)),
-        # For django versions before 2.0:
-        # url(r'^__debug__/', include(debug_toolbar.urls)),
-    ] + urlpatterns
+    urlpatterns = [path('__debug__/', include(debug_toolbar.urls))] + urlpatterns

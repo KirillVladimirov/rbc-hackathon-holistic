@@ -28,7 +28,7 @@ test:
 
 # Check typing
 mypy:
-	mypy --config-file mypy.ini holistic/ main/
+	mypy --config-file mypy.ini holistic/
 
 isort:
 	isort -rc project/ --skip /main/migrations/

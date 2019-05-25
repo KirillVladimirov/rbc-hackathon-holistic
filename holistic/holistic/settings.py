@@ -117,3 +117,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, '..', 'node_modules', 'font-awesome'),
     os.path.join(BASE_DIR, '..', 'node_modules', 'Ionicons'),
 )
+
+LOGIN_URL = '/login/'
